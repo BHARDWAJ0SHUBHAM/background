@@ -1,0 +1,16 @@
+.form{
+    height: 50vh;
+    width: 200px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(179, 191, 210);
+    padding: 100px 100px 100px 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px gray;
+    
+}
+body{
+    padding-left: 250px ;
+}

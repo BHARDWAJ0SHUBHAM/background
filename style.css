@@ -1,0 +1,608 @@
+.main{
+    height: 700vh;
+    width: 100%;
+    border: 2px solid black;
+
+
+}
+.smalldiv{
+    height: 7vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    gap: 20px;
+    font-size: 8px;
+    font-family: monospace;
+    color: white;
+   padding-right: 10px;
+}
+.navbar{
+    background-color:rgb(243, 236, 236);
+    
+    height: 13vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: monospace;
+    font-size: 10px;
+    /* text-decoration: noe; */
+    /* color: black; */
+    
+    
+    /* padding-top: 15px; */
+    /* text-decoration: underline; */
+}
+#Admission{
+    color: black;
+}
+#icatlogo{
+    height: 40px;
+    width: 60px;
+}
+
+/* .drop{
+    position: relative;
+    display: inline-block;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 black;
+
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+} */
+.running{
+    background-color: rgb(17, 83, 238);
+    height: 6vh;
+    width: 100%;
+    transition: 7s;
+    color: azure;
+ 
+  
+    
+}
+.running:hover{
+    background-color: red;
+}
+.img{
+    width: 150px;
+    height: 100px;
+}
+
+button{
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(251, 250, 250);
+    background-color: rgb(24, 108, 226);
+    border: none;
+    
+}
+/* p{
+    border-top: 2px solid red;
+    border-left: 2px solid green;
+    border-bottom: 2px solid blue;
+    border-right: 2px solid cyan;
+} */
+.item{
+    height: 80vh;
+}
+#search{
+    background-color: transparent;
+}
+.cards{
+    
+    height: 90vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.first:hover{
+    transform: scale(1.1);
+}
+.second:hover{
+    transform: scale(1.1);
+}
+
+
+.third:hover{
+    transform: scale(1.1);
+}
+.first{
+    height: 70vh;
+    width: 25%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://pearlproductioncdn-angdc5fwcje2hzgs.z01.azurefd.net/drupal-files/2023-09/pearl_advantage_01.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.second{
+    height: 70vh;
+    width: 25%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://pearlproductioncdn-angdc5fwcje2hzgs.z01.azurefd.net/drupal-files/2023-10/pearl_advantage_02-new.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.third{
+    height: 70vh;
+    width: 25%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://pearlproductioncdn-angdc5fwcje2hzgs.z01.azurefd.net/drupal-files/2023-09/pearl_advantage_03.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.number{
+    height: 30vh;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.firsst{
+    padding: 10px;
+    background-color: rgb(4, 4, 4);
+    color: white;
+    margin-top: 290px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+/* .cardss{
+    
+    height: 80vh;
+    width: 100%;
+    border: 2px solid black;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+.cardss{
+    
+    height: 50vh;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.firsttt:hover{
+    transform: scale(1.1);
+}
+.seconddd:hover{
+    transform: scale(1.1);
+}
+
+
+.thirddd:hover{
+    transform: scale(1.1);
+}
+.forthhh:hover{
+    transform: scale(1.1);
+}
+.exploreprogram{
+    padding-left: 50px;
+    padding-top: 20px;
+    transition: transform 0.5s ease;
+    /* display: inline; */
+   
+}
+.exploreprogramm{
+    padding-left: 50px;
+    font-size: 10px;
+    transition: transform 0.5s ease;
+   
+}
+.exploreprogram:hover{
+    transform: scale(1.1);
+}
+.exploreprogramm:hover{
+    transform: scale(1.1);
+}
+
+
+.firsttt{
+    height: 50vh;
+    width: 20%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://yourserveradmin.com/wp-content/uploads/2020/04/uxui.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.seconddd{
+    height: 50vh;
+    width: 20%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://academyofanimatedart.com/wp-content/uploads/2019/06/td-u-3D-animation-types-techniques-featured.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.thirddd{
+    height: 50vh;
+    width: 20%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://bconnectedmallorca.com/storage/app/media/uploaded-files/Blog_Bconnected_Hiring_an_interior_Designer_2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.forthhh{
+    height: 50vh;
+    width: 20%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://images.unsplash.com/photo-1559701339-4f49d0b07462?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+
+.firssst{
+    padding: 10px;
+    background-color: rgb(4, 4, 4);
+    color: white;
+    margin-top: 200px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+.cardsss{
+    
+    height: 50vh;
+    width: 100%;
+    padding-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.firsssst{
+    padding: 10px;
+    background-color: rgb(4, 4, 4);
+    color: white;
+    margin-top: 180px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+     
+}
+.firstttt:hover{
+    transform: scale(1.1);
+}
+.secondddd:hover{
+    transform: scale(1.1);
+}
+
+
+.thirdddd:hover{
+    transform: scale(1.1);
+}.forthhhh:hover{
+    transform: scale(1.1);
+}
+.fifthhhh:hover{
+    transform: scale(1.1);
+}
+
+.firstttt{
+    height: 50vh;
+    width: 18%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://a.storyblok.com/f/96206/5466x3687/fe63c4d055/ucd-pa-graphic-design-art-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.secondddd{
+    height: 50vh;
+    width: 18%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://huweisalon.com/wp-content/uploads/2020/02/Fashion-Designer000.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.thirdddd{
+    height: 50vh;
+    width: 18%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://img.freepik.com/free-photo/camera-photography-design-studio-editing-concept_53876-92027.jpg?size=626&ext=jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.forthhhh{
+    height: 50vh;
+    width: 18%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("http://www.animationkolkata.com/blog/wp-content/uploads/2020/10/08Zj-QI5FSE275nWs.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.fifthhhh{
+    height: 50vh;
+    width: 18%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://adoptostaging.blob.core.windows.net/media/game-developer-job-description-RWRCQd.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.cardssss{
+    
+    height: 70vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    /* background-color: red; */
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.firssssst{
+    padding: 10px;
+    background-color: rgb(4, 4, 4);
+    color: white;
+    margin-top: 200px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ffirst:hover{
+    transform: scale(1.1);
+}
+.ssecond:hover{
+    transform: scale(1.1);
+}
+.tthird:hover{
+    transform: scale(1.1);
+}
+.ffirst{
+    height: 50vh;
+    width: 22%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://pearlproductioncdn-angdc5fwcje2hzgs.z01.azurefd.net/drupal-files/2023-09/placement2_10.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.ssecond{
+    height: 50vh;
+    width: 22%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://www.gettingsmart.com/wp-content/uploads/2017/04/Teen-Students-Working-Together-on-Project-and-Smiling-Feature-Image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.tthird{
+    height: 50vh;
+    width: 22%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://assets.weforum.org/article/image/0WhlsaEBceiXNUPgIfD4fgoABV83JkedCoStRLgliXc.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.campuses{
+     
+    height: 70vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    /* background-color: red; */
+    padding-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.Bangalore:hover{
+    transform: scale(1.1);
+}
+.hyderabad:hover{
+    transform: scale(1.1);
+}
+.chennai:hover{
+    transform: scale(1.1);
+}
+
+.Bangalore{
+    height: 55vh;
+    width: 25%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://www.adotrip.com/public/images/areas/master_images/5c6ce85950820-Bangalore-Palace_Attractions.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.hyderabad{
+    height: 55vh;
+    width: 25%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://voiceofadventure.com/wp-content/uploads/2021/03/Hyderabad-feature.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+.chennai{
+    height: 55vh;
+    width: 25%;
+    border: 2px solid rgb(14, 3, 3);
+    background-image: url("https://im.rediff.com/getahead/2014/aug/21chennai11.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: none;
+    transition: transform 0.5s ease;
+   
+}
+video{
+    width: 100%;
+    height: 100vh;
+    padding-top: 200px;
+    transition: transform 0.5s ease;
+}
+video:hover{
+    transform: scale(1.1);
+}
+
+
+.site-footer {
+    background-color: #0d0d0e;
+    padding: 50px 0;
+}
+
+.site-footer h3 {
+    color: #333;
+    font-size: 20px;
+}
+
+.site-footer p {
+    color: #666;
+}
+
+.site-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.site-footer ul li {
+    margin-bottom: 10px;
+}
+
+.site-footer ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.site-footer ul li a:hover {
+    color: #333;
+}
+.dropdown{
+    /* height: 20vh; */
+    /* width: 20px; */
+    position: relative;
+    display: inline-block;
+}
+.dropbtn{
+    /* background-color: white; */
+    color: black;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-family: monospace;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content{
+    display: none;
+    
+    background-color: aliceblue;
+    min-height: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: white;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+p{
+    cursor: pointer;
+}
